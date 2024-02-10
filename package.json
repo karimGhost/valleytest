@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+        "export": "next export"
+    
   },
   "dependencies": {
     "git": "^0.1.5",
@@ -16,3 +18,5 @@
     "swiper": "^11.0.6"
   }
 }
+
+
