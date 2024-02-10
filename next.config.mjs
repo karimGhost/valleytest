@@ -1,4 +1,10 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    reactStrictMode: true,
+    basePath: '/testvalley',
+    output: 'export',
+    distDir: 'out',
+
+};
 
 export default nextConfig;
