@@ -91,7 +91,7 @@
   width: 16px;
   height: 16px;
   margin-right: 4px;
-  background: url('../../../public/images/iconBurger.svg')  no-repeat  right;
+  background: url('/images/iconBurger.svg') no-repeat right;
   vertical-align: text-top;
 }
 
