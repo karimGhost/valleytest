@@ -3,7 +3,8 @@
  */
 const nextConfig = {
   output: 'export',
- 
+    distDir: 'dist',
+
   // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
   // trailingSlash: true,
  
@@ -15,3 +16,4 @@ const nextConfig = {
 }
  
 module.exports = nextConfig
+
