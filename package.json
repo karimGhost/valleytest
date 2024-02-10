@@ -7,8 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-        "export": "next export"
-    
+    "export": "next export"    
   },
   "dependencies": {
     "git": "^0.1.5",
