@@ -19,15 +19,18 @@ function Navigation() {
       <div className="css-1j6fzon">
         <div className="css-kknodv">
           <Image src={LogoTest} alt="testvalley" className="css-1olrbel" />
+          
           <div className="css-16zzwcy">category</div>
+          
           <div className="css-j8i5az">
             <Image style={{marginTop:"-3px"}} src={search} alt="" className="css-15r8hvz" />
             <input type="search" placeholder="Search if you're worried about it!" className="css-18wyd8f" value="" />
           </div>
         </div>
         <div className="css-9ul4v3">
-          <button><img src={vertical} alt="" /></button>
           <Image className="bar" src={Home} alt="" />
+                    <button><Image src={vertical} alt="" /></button>
+
           <button>Login / Membership</button>
         </div>
       </div>
