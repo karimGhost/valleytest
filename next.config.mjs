@@ -1,10 +1,12 @@
-/** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+ reactStrictMode: true,
   output: 'export',
 
-  basePath: '/valleytest',
+  basePath: './',
 
-}
+    path: '',
+  },
+  assetPrefix: './',
+};
 
-module.exports = nextConfig
+export default nextConfig;
