@@ -4,7 +4,7 @@ const nextConfig = {
     output: 'export',
   
    // Add basePath
-    basePath: '/valleytest'
+    basePath: '/'
 };
 
 export default nextConfig;
